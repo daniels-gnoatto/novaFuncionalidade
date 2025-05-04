@@ -13,6 +13,12 @@
     <button onclick="salvar()">Salvar</button>
   </div>
 
-
+  <script>
+    function salvar() {
+      var texto = document.getElementById("novo-status").value;
+      localStorage.setItem("status", texto);
+      window.location.href = "index.html";
+    }
+  </script>
 </body>
 </html>
