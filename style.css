@@ -28,3 +28,8 @@ body {
     .botoes button {
     margin: 5px;
   }
+
+  .sobre, .status {
+    text-align: left;
+    margin-top: 20px;
+  }
